@@ -11,13 +11,16 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/9525403e2d.js" crossorigin="anonymous"></script>
+
     <!-- lato font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 
     <style>
-        .font-lato{
+        .font-lato {
             font-family: 'Lato', sans-serif;
         }
     </style>
@@ -26,6 +29,54 @@
 <body class="font-lato">
 
     <header>
+        <!-- navbar section -->
+        <nav class="bg-red-500 container mx-auto rounded-3xl mt-5">
+            <div class="navbar ">
+
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost btn-circle lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h7" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="text-white hidden lg:flex">
+                    <p class="pl-7 pr-5 font-medium text-lg">Home</p>
+                    <p class="pr-5 font-medium text-lg">About Us</p>
+                    <p class="pr-3 font-medium text-lg">Shop</p>
+                    <p class="font-medium text-lg">All Fruits</p>
+                </div>
+
+
+                <div class="navbar-center flex-center pl-8 lg:pl-20">
+                    <img class="px-1" src="images/logo.png" alt="">
+                    <h5 class="font-bold text-4xl text-white">Fruit Burst</h5>
+                </div>
+
+
+                <div class="hidden lg:flex navbar-end pr-7">
+                    <input type="text" placeholder="Search here"
+                        class="rounded-3xl bg-white input input-bordered w-24 md:w-auto" />
+                </div>
+
+
+
+
+
+
+            </div>
+        </nav>
     </header>
 
 
