@@ -80,7 +80,7 @@
 
   <main>
     <!-- Start carousel section -->
-    <section class="container mx-auto">
+    <section class="relative container mx-auto">
       <div class="px-2 lg:px-0">
         <div class="carousel w-full">
 
@@ -101,7 +101,6 @@
             </div>
           </div>
 
-
           <div id="slide2" class="carousel-item relative w-full pt-20">
             <div class="hero min-h-screen rounded-2xl" style="background-image: url(images/banner2.png);">
               <div class="hero-overlay bg-opacity-60"></div>
@@ -119,7 +118,6 @@
             </div>
           </div>
 
-
           <div id="slide3" class="carousel-item relative w-full pt-20">
             <div class="hero min-h-screen rounded-2xl" style="background-image: url(images/banner3.png);">
               <div class="hero-overlay bg-opacity-60"></div>
@@ -136,7 +134,6 @@
               <a href="#slide4" class="btn btn-circle">❯</a>
             </div>
           </div>
-
 
           <div id="slide4" class="carousel-item relative w-full pt-20">
             <div class="hero min-h-screen rounded-2xl" style="background-image: url(images/banner1.png);">
@@ -158,12 +155,36 @@
         </div>
       </div>
     </section>
+
+    <!-- bottom of banner part  -->
+    <div class="absolute left-32 -bottom-64 container mx-auto gap-10 hidden lg:grid grid-flow-col shadow-xl justify-center items-center rounded-xl bg-white w-4/5">
+      <div class="text-center">
+        <img src="images/fruit1.png" alt="">
+        <h6>Strawberry</h6>
+      </div>
+      <div class="text-center">
+        <img src="images/fruit2.png" alt="">
+        <h6>Strawberry</h6>
+      </div>
+      <div class="text-center">
+        <img src="images/fruit3.png" alt="">
+        <h6>Strawberry</h6>
+      </div>
+      <div class="text-center">
+        <img src="images/fruit4.png" alt="">
+        <h6>Strawberry</h6>
+      </div>
+      <div class="text-center">
+        <img src="images/fruit5.png" alt="">
+        <h6>Strawberry</h6>
+      </div>
+    </div>
     <!-- finished carousel section -->
 
 
     <!-- start deal & countdown section -->
     <section class="container mx-auto">
-      <div class="px-2 lg:px-0 text-center lg:flex justify-between pt-16 lg:pt-32">
+      <div class="px-2 lg:px-0 text-center lg:flex justify-between pt-16 lg:pt-40">
 
         <div>
           <h3 class="text-5xl font-extrabold pb-5">Deal of the day</h3>
@@ -205,7 +226,7 @@
         </div>
 
       </div>
-      <div class="pt-11 lg:grid grid-cols-4">
+      <div class="pt-11 lg:grid grid-cols-4 gap-5">
         <!-- Card 1 -->
         <div class="card shadow-xl lg:pr-10">
           <figure class="px-10 pt-10">
@@ -457,6 +478,7 @@
       </div>
     </footer>
   </footer>
+  <!-- end the footer section -->
 
 </body>
 
